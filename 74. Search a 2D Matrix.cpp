@@ -3,7 +3,7 @@ public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int n = matrix.size();
         int m = matrix[0].size();
-        // Time Complexity: O(n + m);
+        // Time Complexity: O(log(n) + log(m)).
         int l = 0, r = n - 1;
 
         while (l <= r) {
